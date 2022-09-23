@@ -143,6 +143,23 @@
   padding-bottom: 2px;
   border-radius: 10px;
 }
+.profile-picture-container {
+  position: relative;
+}
+.current-user-picture-tooltip {
+  position: absolute;
+  height: 200px;
+  bottom: -220px;
+  left: -200px;
+  border-radius: 100px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.profile-picture-container:hover .current-user-picture-tooltip{
+  opacity: 1;
+}
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
