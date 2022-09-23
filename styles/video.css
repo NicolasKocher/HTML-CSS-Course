@@ -1,0 +1,113 @@
+
+.thumbnail {
+  width: 100%;
+}
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+} 
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: #606060;
+}
+.video-author {
+  margin-bottom: 4px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
+}
+.video-link {
+  text-decoration: none;
+  color: black;
+}
+.channel-picture {
+  position: relative;
+  display: inline-block;
+}
+.channel-picture:hover .channel-picture-tooltip-container {
+  opacity: 1;
+}
+.channel-picture-tooltip-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  height: 90px;
+  width: 250px;
+  z-index: 350;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.channel-picture-tooltip-container:hover {
+  opacity: 1;
+}
+.left-channel-picture-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.channel-picture-tooltip {
+  height: 58px;
+  width: 58px;
+  border-radius: 30px;
+}
+.right-channel-picture-tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-tooltip {
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.subscribers-tooltip {
+  color: #5D5C5D;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
