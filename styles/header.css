@@ -74,7 +74,6 @@
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip {
-  font-family: Roboto, Arial;
   position: absolute;
   background-color: grey;
   color: white;
@@ -137,7 +136,6 @@
   right: -4px;
   background-color: #CC0901;
   color:white;
-  font-family: Roboto, Arial;
   font-size: 11px;
   padding-left: 5px;
   padding-right: 5px;
