@@ -39,10 +39,8 @@
   height: 35px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #CCCCCC;
   border-radius: 2px;
+  border: 1px solid #CCCCCC;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
